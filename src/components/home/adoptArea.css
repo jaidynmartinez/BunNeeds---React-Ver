@@ -1,0 +1,21 @@
+.adopt-background{
+    box-shadow: 0 0 10px #ddd;
+    background-color: #33656d;
+    height: 13em;
+    margin-top: 13em
+}
+
+.foster-background-flex{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3em
+}
+.foster-background{
+    position: relative;
+    background-color: #50B2C0;
+    height: 15em;
+    width: 25em;
+    bottom: 5em;
+    border-radius: 10px
+}
+

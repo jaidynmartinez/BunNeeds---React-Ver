@@ -1,0 +1,16 @@
+.sale-area-contain{
+    box-shadow: 0 0 10px #ddd;
+    background-color: #E9C8AF;
+    height: 40em;
+    padding: 1em
+}
+
+.hexagons{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.hexagons img{
+    height: 50em;
+}
+    

@@ -1,0 +1,29 @@
+.hero-contain{
+    /* border: 1px solid black; */
+    height: 30em;
+    padding: 0em 10em 2em;
+}
+
+.hero-contain img{
+    height: 14em;
+    width: 14em;
+    border: 1px solid black;
+    border-radius: 50%;
+    transition: .3s
+}
+
+.second{
+    position: relative;
+    top: 5em;
+    display: flex;
+    justify-content: center;
+}
+
+.first-third{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-contain img:hover{
+    box-shadow: 6px 6px 10px #c2bfba
+}
