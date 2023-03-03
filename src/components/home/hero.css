@@ -1,29 +1,61 @@
+
 .hero-contain{
-    /* border: 1px solid black; */
-    height: 30em;
-    padding: 0em 10em 2em;
+    border: 1px solid blue;
+    margin: 0 auto;
+    padding: 3em 0em;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 1500px
 }
 
-.hero-contain img{
-    height: 14em;
-    width: 14em;
-    border: 1px solid black;
+#hero-title{
+    margin: 2em 0
+}
+
+.shortcuts-contain{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.shortcuts{
+    border: 1px solid green;
+    max-width: 12em;
+    background-color: gray;
     border-radius: 50%;
-    transition: .3s
-}
-
-.second{
-    position: relative;
-    top: 5em;
     display: flex;
     justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 10px rgb(167, 167, 167);
+    transition: .2s
+}
+.shortcuts:hover{
+    box-shadow: 0px 6px 15px rgb(167, 167, 167);
 }
 
-.first-third{
-    display: flex;
-    justify-content: space-between;
+.shortcuts-title{
+    position: absolute;
+    color: white;
+    text-shadow: 1px 0 10px rgb(52, 52, 52);
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: .1s
+}
+.shortcuts:hover .shortcuts-title{
+    font-size: 2em;
 }
 
-.hero-contain img:hover{
-    box-shadow: 6px 6px 10px #c2bfba
+.shortcuts:hover #shortcut-img{
+    filter: brightness(80%)
+}
+
+#shortcut-img{
+    border-radius: 50%;
+    max-width: 12em;
+    width: 100%;
+    transition: .5s
 }

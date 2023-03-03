@@ -11,12 +11,12 @@ const Home = () => {
 
     return(
         <div>
-            <p>Welcome to Bunny Heaven</p>
+            <p>Welcome to Bunny Heaven!</p>
             <Hero />
-            <SaleArea />
+            {/* <SaleArea />
             <AdoptArea />
             <ShopArea />
-            <ArticleArea />
+            <ArticleArea /> */}
         </div>
     )
 }

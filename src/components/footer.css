@@ -1,6 +1,18 @@
 .footer-contain{
     background-color: #33656d;
-    height: 10em;
-    margin-top: 5em;
-    padding: 5em
+    color: white;
+    height: 20em;
+    padding: 2em 0em 2em 0em;
+}
+
+.footer-title{
+    font-size: 2em;
+    text-decoration: underline 1px solid;
+    padding: 0em 0em .4em;
+}
+
+.footer-lesser-title{
+    font-size: 1.5em;
+    text-decoration: underline 1px solid;
+    padding: 1em 0em .4em 0em;
 }

@@ -12,14 +12,18 @@ const ShopArea = () =>{
         document.querySelector('.items-contain').scrollLeft -= 300;
     }
 
+
+
+
+
     return(
         <div className='shop-area-contain'>
 
             <div className='shop-slider'>
 
                 <div className='buttons'>
-                    <button className='scroll-btn' id='scroll-left' onClick={scrollRight}><i className='fas fa-chevron-left'></i></button>
-                    <button className='scroll-btn' id='scroll-right' onClick={scrollLeft}><i className='fas fa-chevron-right'></i></button>
+                    <div className='scroll-btn' id='scroll-left' onClick={scrollRight}><p>◀</p></div>
+                    <div className='scroll-btn' id='scroll-right' onClick={scrollLeft}><p>▶</p></div>
                 </div>
 
                 <div className='items-contain'>

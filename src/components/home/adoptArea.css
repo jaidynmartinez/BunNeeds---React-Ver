@@ -13,9 +13,58 @@
 .foster-background{
     position: relative;
     background-color: #50B2C0;
-    height: 15em;
-    width: 25em;
+    height: 20em;
+    width: 30em;
     bottom: 5em;
-    border-radius: 10px
+    padding: 2em;
+    border-radius: 10px;
+    margin-right: 10em;
 }
 
+.containerStyles{
+    width: 30em;
+    height: 20em;
+    margin: 0 auto
+}
+
+/* image slider css */
+
+
+
+.leftArrowStyles{
+    position: absolute;
+    top: 50%;
+    transform: translate(-90%, -50%);
+    left: 32px;
+    font-size: 20px;
+    color: #fff;
+    padding: 50px 5px;
+    z-index: 1;
+    cursor: pointer;
+    text-shadow: 1px 0px 1em black;
+    transition: .3s
+}
+
+
+.rightArrowStyles{
+    position: absolute;
+    top: 50%;
+    transform: translate(90%, -50%) rotate(180deg);
+    right: 32px;
+    font-Size: 20px;
+    color: #fff;
+    padding: 50px 5px;
+    z-Index: 1;
+    cursor: pointer;
+    text-Shadow: 1px 0px 1em black;
+    transition: 0.3s
+}
+
+.leftArrowStyles:hover{
+    text-Shadow: 1px 0px 10px black;
+    font-size: 40px
+}
+.rightArrowStyles:hover{
+    text-Shadow: 1px 0px 10px black;
+    font-size: 40px
+}
