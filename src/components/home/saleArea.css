@@ -1,16 +1,92 @@
+
 .sale-area-contain{
-    box-shadow: 0 0 10px #ddd;
-    background-color: #E9C8AF;
-    height: 40em;
-    padding: 1em
+    margin: 0 auto;
+    margin-top: 5rem;
+    width: 90%;
 }
 
-.hexagons{
-    display: flex;
-    justify-content: flex-start;
+
+.sales-block{
+    position: relative;
+    border: 1px solid white;
+}
+
+.sales-block p{
+    text-align: end;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
 
 }
-.hexagons img{
-    height: 50em;
+
+.sales-block span{
+    font-size: 10px;
 }
-    
+
+.sales-circles-contain{
+    position: relative;
+    width: 50%;
+    margin: 25px 0 0;
+}
+
+#first-circle, #third-circle{
+    border: 1px solid black;
+    position: relative;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+
+#first-circle img, #third-circle img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+
+#second-circle img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+}
+
+#second-circle{
+    border: 1px solid black;
+    position: relative;
+    left: 3rem;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+}
+
+.sales-picture img{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+}
+
+.sales-picture{
+    border: 1px solid pink;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    position: absolute;
+    right: 1rem;
+    bottom: 5px
+}
+
+.sales-picture-title{
+    background-color: #50B2C0;
+    width: 7rem;
+    font-size: 7px;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    bottom: 0
+}
+
+.sales-picture-title h1{
+    padding: 0;
+    margin: 0;
+}

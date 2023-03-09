@@ -9,7 +9,7 @@ const Hero = () => {
 
     return(
         <div className='hero-contain'>
-            <h1 id='hero-title'>shop all of our greatest deals!</h1>
+            <h1 id='hero-title'>Welcome to Bunny Heaven!</h1>
             <div className='shortcuts-contain'>
                 <div className='shortcuts'>
                     <img  id='shortcut-img' src={bunDiet}/>
